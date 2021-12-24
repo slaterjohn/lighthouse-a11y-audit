@@ -53,4 +53,4 @@ Make changes to the included the `settings.json` file to run the audits against 
 ## Run
 The script will test each URL sequentially and generate a report for each site/project with a breakdown of a11y issues on each page.
 
-	node index.js
+	npm start

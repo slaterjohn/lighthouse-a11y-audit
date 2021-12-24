@@ -1,10 +1,11 @@
 {
-  "name": "js-lighthouse",
+  "name": "lighthouse-a11y-audit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Run Lighthouse accessibility reports against multiple websites and see an overview of the results.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
