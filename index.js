@@ -201,5 +201,3 @@ function classForScore(score){
 }
 
 runAllSites();
-// Run specific site
-// runSite(settings.sites[0]);

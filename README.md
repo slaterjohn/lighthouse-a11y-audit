@@ -1,10 +1,10 @@
 # lighthouse-a11y-audit
 Run Lighthouse accessibility reports against multiple websites and see an overview of the results.
 
-Disclaimer: this is hacked together to serve a purpose. It doesn't handle errors well and it's not that customisable. It just runs a11y lighthouse tests against URLs you give it.
+**Disclaimer: this is hacked together to serve a purpose. It doesn't handle errors well and it's not that customisable. It just runs a11y lighthouse tests against URLs you give it.**
 
 ## Installation
-Requires Node v16.13.1
+Requires `NodeJS v16.13.1`
 
 Clone this repo and run.
 
