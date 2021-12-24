@@ -17,16 +17,12 @@ Make changes to the included the `settings.json` file to run the audits against 
         "reportsLocation": "./reports",
         "sites": [
             {
-                "title": "Trafford Housing Trust",
-                "folder": "traffordhousingtrust.co.uk",
+                "title": "Example Site",
+                "folder": "example.com",
                 "urls": [
                     {
-                        "title": "Homepage",
-                        "url": "https://www.traffordhousingtrust.co.uk"
-                    },
-                    {
-                        "title": "Content page - Active appetites",
-                        "url": "https://www.traffordhousingtrust.co.uk/advice-and-support/active-appetites/"
+                        "title": "Example Homepage",
+                        "url": "https://www.example.com"
                     }
                 ]
             }
