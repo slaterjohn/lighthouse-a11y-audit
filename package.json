@@ -14,6 +14,8 @@
     "handlebars": "^4.7.7",
     "lighthouse": "^9.2.0",
     "moment": "^2.29.1",
-    "node-color-log": "^7.0.0"
+    "node-color-log": "^7.0.0",
+    "open": "^8.4.0",
+    "shortid": "^2.2.16"
   }
 }

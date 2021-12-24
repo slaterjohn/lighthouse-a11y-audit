@@ -5,11 +5,14 @@ const logger = require('node-color-log');
 const Handlebars = require("handlebars");
 const moment = require("moment");
 const settings = require("./settings.json");
+const open = require('open');
+const shortid = require('shortid');
 
 var results = [];
 
 async function runTest(opt, site){
-	const location = opt.location + '/' + encodeURI(opt.title);
+	const nowTime = moment().format("YYYY-MM-DD-HH:mm:ss");
+	const location = opt.location + '/' + nowTime + '--' + shortid.generate();
 	const locationJson = location + '.json';
 	const locationHTML = location + '.html';
 
@@ -156,12 +159,9 @@ function makeReportsPage(sites){
 	const summaryLoc = settings.reportsLocation + '/' + 'index.html';
 	fs.writeFileSync(summaryLoc, summaryResult);
 
-	// Launch report
-	chromeLauncher.launch({
-		startingUrl: settings.reportsLocation + '/' + 'index.html'
-	}).then(chrome => {
-		logger.info('Opening report');
-	});
+	// Launch report in browser
+	open(settings.reportsLocation + '/' + 'index.html', {app: {name: 'google chrome'}});
+
 }
 
 function gatherResultsData(){
