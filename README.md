@@ -13,25 +13,25 @@ Clone this repo and run.
 ## Settings
 Make changes to the included the `settings.json` file to run the audits against your chosen URLs.
 
-	{
-		"reportsLocation": "./reports",
-		"sites": [
-			{
-				"title": "Trafford Housing Trust",
-				"folder": "traffordhousingtrust.co.uk",
-				"urls": [
-					{
-						"title": "Homepage",
-						"url": "https://www.traffordhousingtrust.co.uk"
-					},
-					{
-						"title": "Content page - Active appetites",
-						"url": "https://www.traffordhousingtrust.co.uk/advice-and-support/active-appetites/"
-					}
-				]
-			}
-		]
-	}
+    {
+        "reportsLocation": "./reports",
+        "sites": [
+            {
+                "title": "Trafford Housing Trust",
+                "folder": "traffordhousingtrust.co.uk",
+                "urls": [
+                    {
+                        "title": "Homepage",
+                        "url": "https://www.traffordhousingtrust.co.uk"
+                    },
+                    {
+                        "title": "Content page - Active appetites",
+                        "url": "https://www.traffordhousingtrust.co.uk/advice-and-support/active-appetites/"
+                    }
+                ]
+            }
+        ]
+    }
 
 | Option      | Description |
 | ----------- | ----------- |
