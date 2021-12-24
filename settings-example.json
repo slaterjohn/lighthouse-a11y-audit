@@ -1,0 +1,71 @@
+{
+	"reportsLocation": "./reports",
+	"sites": [
+		{
+			"title": "Trafford Housing Trust",
+			"folder": "traffordhousingtrust.co.uk",
+			"urls": [
+				{
+					"title": "THT Homepage",
+					"url": "https://www.traffordhousingtrust.co.uk"
+				},
+				{
+					"title": "Content page - Active appetites",
+					"url": "https://www.traffordhousingtrust.co.uk/advice-and-support/active-appetites/"
+				},
+				{
+					"title": "Content page - My tenancy",
+					"url": "https://www.traffordhousingtrust.co.uk/customer-info/my-tenancy/"
+				},
+				{
+					"title": "Layout C - Homes to buy",
+					"url": "https://www.traffordhousingtrust.co.uk/find-a-home/homes-to-buy/"
+				}
+			]
+		},
+		{
+			"title": "Trustcare",
+			"folder": "trustcare.org.uk",
+			"urls": [
+				{
+					"title": "Homepage",
+					"url": "https://www.trustcare.org.uk"
+				},
+				{
+					"title": "Service page - A&R",
+					"url": "https://www.trustcare.org.uk/our-services/alert-and-response/"
+				},
+				{
+					"title": "Service page - Homecare",
+					"url": "https://www.trustcare.org.uk/our-services/homecare/"
+				},
+				{
+					"title": "Service page - Supported housing",
+					"url": "https://www.trustcare.org.uk/our-services/supported-housing/"
+				},
+				{
+					"title": "About us",
+					"url": "https://www.trustcare.org.uk/about-us/"
+				},
+				{
+					"title": "Contact us",
+					"url": "https://www.trustcare.org.uk/contact-us/"
+				}
+			]
+		},
+		{
+			"title": "Limelight",
+			"folder": "limelightoldtrafford.co.uk",
+			"urls": [
+				{
+					"title": "Homepage",
+					"url": "https://www.limelightoldtrafford.co.uk/"
+				},
+				{
+					"title": "Contact us",
+					"url": "https://www.limelightoldtrafford.co.uk/contact-us/"
+				}
+			]
+		}
+	]
+}

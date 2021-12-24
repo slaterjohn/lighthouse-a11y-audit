@@ -1,0 +1,19 @@
+{
+	"reportsLocation": "./reports",
+	"sites": [
+		{
+			"title": "Example Website",
+			"folder": "slaterjohn.com",
+			"urls": [
+				{
+					"title": "Homepage",
+					"url": "https://www.slaterjohn.com"
+				},
+				{
+					"title": "Blog Post - Not all numbers are alike",
+					"url": "https://www.slaterjohn.com/number-inputs-you-should-properly-note-use-the-number-type/"
+				}
+			]
+		}
+	]
+}
