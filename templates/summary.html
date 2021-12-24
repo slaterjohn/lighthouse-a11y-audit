@@ -49,13 +49,17 @@
 					</tr>
 				</thead>
 				<tbody>
-					{{#failures}}
+					{{#each failures}}
 					<tr>
 						<td><span class="badge rounded-pill bg-danger">Fail</span></td>
 						<td>{{id}}</td>
 						<td>{{title}}</td>
 					</tr>
-					{{/failures}}
+					{{else}}
+					<tr>
+						<td colspan=3><center>No failures for this URL.</center></td>
+					</tr>
+					{{/each}}
 				</tbody>
 			</table>
 
