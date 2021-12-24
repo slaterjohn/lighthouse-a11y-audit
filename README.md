@@ -11,7 +11,7 @@ Clone this repo and run.
 	npm install
 
 ## Settings
-Make changes to the included the `settings.json` file to run the audits against your chosen URLs.
+Make changes to the included the `settings.json` file to run the audits against your chosen URLs. [settings-example.json](settings-example.json) shows settings for a full project.
 
     {
         "reportsLocation": "./reports",
